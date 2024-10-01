@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+.cabecalho{
+  background-color: #f2f2f2;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-item .rosa:hover{
+  color: pink;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.conteudo{
+  background-color: hsl(220,50%,70%);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+main{
+  height: 100vh;
 }
-
-.App-link {
-  color: #61dafb;
+.box{
+  box-shadow: 0 0 20px black;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.conteudo .container{
+  background-color: hsl(40,60%,70%);
+}
+.perfumaria{
+  background-color: pink;
+}
+.artigos{
+  background-color: hsl(40,60%,80%);
+}
+.produto{
+  box-shadow: 0 0px 4px hsl(250,50%,50%);
+  & h4{
+    color: hsl(0,0%,96%);
   }
 }
